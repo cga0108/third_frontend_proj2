@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+    font-family: sans-serif;
+    font-weight: 400px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;  
+    background-color: hsl(0, 0%, 8%)
+         
+  }
+
+
+   .grey-rectangle {
+    height: 600px;
+    width: 300px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+
+   }
+
+   img {
+    border-radius: 100px;
+    height: 75px;
+    width: 75px;
+    margin-left: 112px;
+    margin-top: 50px;
+   }
+
+   .para-container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items:center;
+   }
+
+   h2, h5 {
+    margin: 5px 0;
+    color: white;
+    font-weight: 400;
+    /* Reduce spacing between elements */
+    }
+
+    p {
+      color: hsl(75, 94%, 57%);
+      font-size: 14px;
+    }
+
+    .grey {
+      background-color:hsl(0, 0%, 20%);
+      color: white;
+      text-align: center;
+      padding: 12px;
+      border-radius: 10px;
+    }
+
+    
+
+  
+
+   .grey-container {
+    display: grid;
+    align-items: center;
+    padding: 20px;
+    
+   }
+
+
+   .img-container {
+
+    background-color: hsl(0, 0%, 20%);
+
+   }
+
+   .br-color {
+    background-color:hsl(0, 0%, 12%);
+   }
+
+  
+
+
+  </style>
+</head>
+<body>
+<main>
+  <div class="grey-rectangle">
+    <img src="./assets/images/avatar-jessica.jpeg" class="round-img" alt="">
+    <div class="para-container">
+      <h2 class="h2">Jessica Randall</h2>
+        <p class="p">London, United Kingdom</p>
+        <br>
+        <h5 class="h5">"Front-end developer and avid reader."</h5>
+  </div>
+  <div class="grey-container">
+    <div class="grey one">GitHub</div>
+    <br>
+    <div class="grey two">Frontend Mentor</div>
+    <br>
+    <div class="grey three">LinkedIn</div>
+    <br>
+    <div class="grey four">Twitter</div>
+    <br br-color>
+    <div class="grey five">Instagram</div>
+    <br>
+    </div>
+  </div>
+
+
+</main>
+  
+</body>
+</html>
